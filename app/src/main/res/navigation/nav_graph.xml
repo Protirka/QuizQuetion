@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/question1Fragment">
+
+    <fragment
+        android:id="@+id/question1Fragment"
+        android:name="com.example.quizquetion.Question1Fragment"
+        android:label="fragment_question1"
+        tools:layout="@layout/fragment_question1" >
+        <action
+            android:id="@+id/action_question1Fragment_to_question2Fragment"
+            app:destination="@id/question2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question2Fragment"
+        android:name="com.example.quizquetion.Question2Fragment"
+        android:label="fragment_question2"
+        tools:layout="@layout/fragment_question2" >
+        <action
+            android:id="@+id/action_question2Fragment_to_question3Fragment"
+            app:destination="@id/question3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question3Fragment"
+        android:name="com.example.quizquetion.Question3Fragment"
+        android:label="fragment_question3"
+        tools:layout="@layout/fragment_question3" >
+        <action
+            android:id="@+id/action_question3Fragment_to_question4Fragment"
+            app:destination="@id/question4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question4Fragment"
+        android:name="com.example.quizquetion.Question4Fragment"
+        android:label="fragment_question4"
+        tools:layout="@layout/fragment_question4" >
+        <action
+            android:id="@+id/action_question4Fragment_to_question5Fragment"
+            app:destination="@id/question5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question5Fragment"
+        android:name="com.example.quizquetion.Question5Fragment"
+        android:label="fragment_question5"
+        tools:layout="@layout/fragment_question5" >
+        <action
+            android:id="@+id/action_question5Fragment_to_question6Fragment"
+            app:destination="@id/question6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question6Fragment"
+        android:name="com.example.quizquetion.Question6Fragment"
+        android:label="fragment_question6"
+        tools:layout="@layout/fragment_question6" >
+        <action
+            android:id="@+id/action_question6Fragment_to_question7Fragment"
+            app:destination="@id/question7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question7Fragment"
+        android:name="com.example.quizquetion.Question7Fragment"
+        android:label="fragment_question7"
+        tools:layout="@layout/fragment_question7" >
+        <action
+            android:id="@+id/action_question7Fragment_to_question8Fragment"
+            app:destination="@id/question8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question8Fragment"
+        android:name="com.example.quizquetion.Question8Fragment"
+        android:label="fragment_question8"
+        tools:layout="@layout/fragment_question8" >
+        <action
+            android:id="@+id/action_question8Fragment_to_question9Fragment"
+            app:destination="@id/question9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question9Fragment"
+        android:name="com.example.quizquetion.Question9Fragment"
+        android:label="fragment_question9"
+        tools:layout="@layout/fragment_question9" >
+        <action
+            android:id="@+id/action_question9Fragment_to_question10Fragment"
+            app:destination="@id/question10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question10Fragment"
+        android:name="com.example.quizquetion.Question10Fragment"
+        android:label="fragment_question10"
+        tools:layout="@layout/fragment_question10" >
+        <action
+            android:id="@+id/action_question10Fragment_to_question11Fragment"
+            app:destination="@id/question11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question11Fragment"
+        android:name="com.example.quizquetion.Question11Fragment"
+        android:label="fragment_question11"
+        tools:layout="@layout/fragment_question11" >
+        <action
+            android:id="@+id/action_question11Fragment_to_question12Fragment"
+            app:destination="@id/question12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question12Fragment"
+        android:name="com.example.quizquetion.Question12Fragment"
+        android:label="fragment_question12"
+        tools:layout="@layout/fragment_question12" >
+        <action
+            android:id="@+id/action_question12Fragment_to_question13Fragment"
+            app:destination="@id/question13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question13Fragment"
+        android:name="com.example.quizquetion.Question13Fragment"
+        android:label="fragment_question13"
+        tools:layout="@layout/fragment_question13" >
+        <action
+            android:id="@+id/action_question13Fragment_to_question14Fragment"
+            app:destination="@id/question14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question14Fragment"
+        android:name="com.example.quizquetion.Question14Fragment"
+        android:label="fragment_question14"
+        tools:layout="@layout/fragment_question14" >
+        <action
+            android:id="@+id/action_question14Fragment_to_question15Fragment"
+            app:destination="@id/question15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question15Fragment"
+        android:name="com.example.quizquetion.Question15Fragment"
+        android:label="fragment_question15"
+        tools:layout="@layout/fragment_question15" >
+        <action
+            android:id="@+id/action_question15Fragment_to_question16Fragment"
+            app:destination="@id/question16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question16Fragment"
+        android:name="com.example.quizquetion.Question16Fragment"
+        android:label="fragment_question16"
+        tools:layout="@layout/fragment_question16" >
+        <action
+            android:id="@+id/action_question16Fragment_to_question17Fragment"
+            app:destination="@id/question17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question17Fragment"
+        android:name="com.example.quizquetion.Question17Fragment"
+        android:label="fragment_question17"
+        tools:layout="@layout/fragment_question17" >
+        <action
+            android:id="@+id/action_question17Fragment_to_question18Fragment"
+            app:destination="@id/question18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question18Fragment"
+        android:name="com.example.quizquetion.Question18Fragment"
+        android:label="fragment_question18"
+        tools:layout="@layout/fragment_question18" >
+        <action
+            android:id="@+id/action_question18Fragment_to_question19Fragment"
+            app:destination="@id/question19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question19Fragment"
+        android:name="com.example.quizquetion.Question19Fragment"
+        android:label="fragment_question19"
+        tools:layout="@layout/fragment_question19" >
+        <action
+            android:id="@+id/action_question19Fragment_to_question20Fragment"
+            app:destination="@id/question20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question20Fragment"
+        android:name="com.example.quizquetion.Question20Fragment"
+        android:label="fragment_question20"
+        tools:layout="@layout/fragment_question20" >
+        <action
+            android:id="@+id/action_question20Fragment_to_question21Fragment"
+            app:destination="@id/question21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question21Fragment"
+        android:name="com.example.quizquetion.Question21Fragment"
+        android:label="fragment_question21"
+        tools:layout="@layout/fragment_question21" >
+        <action
+            android:id="@+id/action_question21Fragment_to_question22Fragment"
+            app:destination="@id/question22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question22Fragment"
+        android:name="com.example.quizquetion.Question22Fragment"
+        android:label="fragment_question22"
+        tools:layout="@layout/fragment_question22" >
+        <action
+            android:id="@+id/action_question22Fragment_to_question23Fragment"
+            app:destination="@id/question23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question23Fragment"
+        android:name="com.example.quizquetion.Question23Fragment"
+        android:label="fragment_question23"
+        tools:layout="@layout/fragment_question23" >
+        <action
+            android:id="@+id/action_question23Fragment_to_question24Fragment"
+            app:destination="@id/question24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question24Fragment"
+        android:name="com.example.quizquetion.Question24Fragment"
+        android:label="fragment_question24"
+        tools:layout="@layout/fragment_question24" >
+        <action
+            android:id="@+id/action_question24Fragment_to_question25Fragment"
+            app:destination="@id/question25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question25Fragment"
+        android:name="com.example.quizquetion.Question25Fragment"
+        android:label="fragment_question25"
+        tools:layout="@layout/fragment_question25" >
+        <action
+            android:id="@+id/action_question25Fragment_to_question26Fragment"
+            app:destination="@id/question26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question26Fragment"
+        android:name="com.example.quizquetion.Question26Fragment"
+        android:label="fragment_question26"
+        tools:layout="@layout/fragment_question26" >
+        <action
+            android:id="@+id/action_question26Fragment_to_question27Fragment"
+            app:destination="@id/question27Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question27Fragment"
+        android:name="com.example.quizquetion.Question27Fragment"
+        android:label="fragment_question27"
+        tools:layout="@layout/fragment_question27" >
+        <action
+            android:id="@+id/action_question27Fragment_to_question28Fragment"
+            app:destination="@id/question28Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question28Fragment"
+        android:name="com.example.quizquetion.Question28Fragment"
+        android:label="fragment_question28"
+        tools:layout="@layout/fragment_question28" >
+        <action
+            android:id="@+id/action_question28Fragment_to_question29Fragment"
+            app:destination="@id/question29Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question29Fragment"
+        android:name="com.example.quizquetion.Question29Fragment"
+        android:label="fragment_question29"
+        tools:layout="@layout/fragment_question29" >
+        <action
+            android:id="@+id/action_question29Fragment_to_question30Fragment"
+            app:destination="@id/question30Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question30Fragment"
+        android:name="com.example.quizquetion.Question30Fragment"
+        android:label="fragment_question30"
+        tools:layout="@layout/fragment_question30" >
+        <action
+            android:id="@+id/action_question30Fragment_to_question31Fragment"
+            app:destination="@id/question31Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question31Fragment"
+        android:name="com.example.quizquetion.Question31Fragment"
+        android:label="fragment_question31"
+        tools:layout="@layout/fragment_question31" >
+        <action
+            android:id="@+id/action_question31Fragment_to_question32Fragment"
+            app:destination="@id/question32Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question32Fragment"
+        android:name="com.example.quizquetion.Question32Fragment"
+        android:label="fragment_question32"
+        tools:layout="@layout/fragment_question32" >
+        <action
+            android:id="@+id/action_question32Fragment_to_question33Fragment"
+            app:destination="@id/question33Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question33Fragment"
+        android:name="com.example.quizquetion.Question33Fragment"
+        android:label="fragment_question33"
+        tools:layout="@layout/fragment_question33" >
+        <action
+            android:id="@+id/action_question33Fragment_to_question34Fragment"
+            app:destination="@id/question34Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question34Fragment"
+        android:name="com.example.quizquetion.Question34Fragment"
+        android:label="fragment_question34"
+        tools:layout="@layout/fragment_question34" >
+        <action
+            android:id="@+id/action_question34Fragment_to_question35Fragment"
+            app:destination="@id/question35Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question35Fragment"
+        android:name="com.example.quizquetion.Question35Fragment"
+        android:label="fragment_question35"
+        tools:layout="@layout/fragment_question35" >
+        <action
+            android:id="@+id/action_question35Fragment_to_question36Fragment"
+            app:destination="@id/question36Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question36Fragment"
+        android:name="com.example.quizquetion.Question36Fragment"
+        android:label="fragment_question36"
+        tools:layout="@layout/fragment_question36" >
+        <action
+            android:id="@+id/action_question36Fragment_to_question37Fragment"
+            app:destination="@id/question37Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question37Fragment"
+        android:name="com.example.quizquetion.Question37Fragment"
+        android:label="fragment_question37"
+        tools:layout="@layout/fragment_question37" >
+        <action
+            android:id="@+id/action_question37Fragment_to_question38Fragment"
+            app:destination="@id/question38Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question38Fragment"
+        android:name="com.example.quizquetion.Question38Fragment"
+        android:label="fragment_question38"
+        tools:layout="@layout/fragment_question38" >
+        <action
+            android:id="@+id/action_question38Fragment_to_question39Fragment"
+            app:destination="@id/question39Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question39Fragment"
+        android:name="com.example.quizquetion.Question39Fragment"
+        android:label="fragment_question39"
+        tools:layout="@layout/fragment_question39" >
+        <action
+            android:id="@+id/action_question39Fragment_to_question40Fragment"
+            app:destination="@id/question40Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question40Fragment"
+        android:name="com.example.quizquetion.Question40Fragment"
+        android:label="fragment_question40"
+        tools:layout="@layout/fragment_question40" >
+        <action
+            android:id="@+id/action_question40Fragment_to_question41Fragment"
+            app:destination="@id/question41Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question41Fragment"
+        android:name="com.example.quizquetion.Question41Fragment"
+        android:label="fragment_question41"
+        tools:layout="@layout/fragment_question41" >
+        <action
+            android:id="@+id/action_question41Fragment_to_question42Fragment"
+            app:destination="@id/question42Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question42Fragment"
+        android:name="com.example.quizquetion.Question42Fragment"
+        android:label="fragment_question42"
+        tools:layout="@layout/fragment_question42" >
+        <action
+            android:id="@+id/action_question42Fragment_to_question43Fragment"
+            app:destination="@id/question43Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question43Fragment"
+        android:name="com.example.quizquetion.Question43Fragment"
+        android:label="fragment_question43"
+        tools:layout="@layout/fragment_question43" >
+        <action
+            android:id="@+id/action_question43Fragment_to_question44Fragment"
+            app:destination="@id/question44Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question44Fragment"
+        android:name="com.example.quizquetion.Question44Fragment"
+        android:label="fragment_question44"
+        tools:layout="@layout/fragment_question44" >
+        <action
+            android:id="@+id/action_question44Fragment_to_question45Fragment"
+            app:destination="@id/question45Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question45Fragment"
+        android:name="com.example.quizquetion.Question45Fragment"
+        android:label="fragment_question45"
+        tools:layout="@layout/fragment_question45" >
+        <action
+            android:id="@+id/action_question45Fragment_to_question46Fragment"
+            app:destination="@id/question46Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question46Fragment"
+        android:name="com.example.quizquetion.Question46Fragment"
+        android:label="fragment_question46"
+        tools:layout="@layout/fragment_question46" >
+        <action
+            android:id="@+id/action_question46Fragment_to_question47Fragment"
+            app:destination="@id/question47Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question47Fragment"
+        android:name="com.example.quizquetion.Question47Fragment"
+        android:label="fragment_question47"
+        tools:layout="@layout/fragment_question47" >
+        <action
+            android:id="@+id/action_question47Fragment_to_question48Fragment"
+            app:destination="@id/question48Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question48Fragment"
+        android:name="com.example.quizquetion.Question48Fragment"
+        android:label="fragment_question48"
+        tools:layout="@layout/fragment_question48" >
+        <action
+            android:id="@+id/action_question48Fragment_to_question49Fragment"
+            app:destination="@id/question49Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question49Fragment"
+        android:name="com.example.quizquetion.Question49Fragment"
+        android:label="fragment_question49"
+        tools:layout="@layout/fragment_question49" >
+        <action
+            android:id="@+id/action_question49Fragment_to_question50Fragment"
+            app:destination="@id/question50Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question50Fragment"
+        android:name="com.example.quizquetion.Question50Fragment"
+        android:label="fragment_question50"
+        tools:layout="@layout/fragment_question50" >
+        <action
+            android:id="@+id/action_question50Fragment_to_question51Fragment"
+            app:destination="@id/question51Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question51Fragment"
+        android:name="com.example.quizquetion.Question51Fragment"
+        android:label="fragment_question51"
+        tools:layout="@layout/fragment_question51" >
+        <action
+            android:id="@+id/action_question51Fragment_to_question52Fragment"
+            app:destination="@id/question52Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question52Fragment"
+        android:name="com.example.quizquetion.Question52Fragment"
+        android:label="fragment_question52"
+        tools:layout="@layout/fragment_question52" >
+        <action
+            android:id="@+id/action_question52Fragment_to_question53Fragment"
+            app:destination="@id/question53Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question53Fragment"
+        android:name="com.example.quizquetion.Question53Fragment"
+        android:label="fragment_question53"
+        tools:layout="@layout/fragment_question53" >
+        <action
+            android:id="@+id/action_question53Fragment_to_question54Fragment"
+            app:destination="@id/question54Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question54Fragment"
+        android:name="com.example.quizquetion.Question54Fragment"
+        android:label="fragment_question54"
+        tools:layout="@layout/fragment_question54" >
+        <action
+            android:id="@+id/action_question54Fragment_to_question55Fragment"
+            app:destination="@id/question55Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question55Fragment"
+        android:name="com.example.quizquetion.Question55Fragment"
+        android:label="fragment_question55"
+        tools:layout="@layout/fragment_question55" >
+        <action
+            android:id="@+id/action_question55Fragment_to_question56Fragment"
+            app:destination="@id/question56Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question56Fragment"
+        android:name="com.example.quizquetion.Question56Fragment"
+        android:label="fragment_question56"
+        tools:layout="@layout/fragment_question56" >
+        <action
+            android:id="@+id/action_question56Fragment_to_question57Fragment"
+            app:destination="@id/question57Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question57Fragment"
+        android:name="com.example.quizquetion.Question57Fragment"
+        android:label="fragment_question57"
+        tools:layout="@layout/fragment_question57" >
+        <action
+            android:id="@+id/action_question57Fragment_to_question58Fragment"
+            app:destination="@id/question58Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question58Fragment"
+        android:name="com.example.quizquetion.Question58Fragment"
+        android:label="fragment_question58"
+        tools:layout="@layout/fragment_question58" >
+        <action
+            android:id="@+id/action_question58Fragment_to_question59Fragment"
+            app:destination="@id/question59Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question59Fragment"
+        android:name="com.example.quizquetion.Question59Fragment"
+        android:label="fragment_question59"
+        tools:layout="@layout/fragment_question59" >
+        <action
+            android:id="@+id/action_question59Fragment_to_question60Fragment"
+            app:destination="@id/question60Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question60Fragment"
+        android:name="com.example.quizquetion.Question60Fragment"
+        android:label="fragment_question60"
+        tools:layout="@layout/fragment_question60" >
+        <action
+            android:id="@+id/action_question60Fragment_to_question61Fragment"
+            app:destination="@id/question61Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question61Fragment"
+        android:name="com.example.quizquetion.Question61Fragment"
+        android:label="fragment_question61"
+        tools:layout="@layout/fragment_question61" >
+        <action
+            android:id="@+id/action_question61Fragment_to_question62Fragment"
+            app:destination="@id/question62Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question62Fragment"
+        android:name="com.example.quizquetion.Question62Fragment"
+        android:label="fragment_question62"
+        tools:layout="@layout/fragment_question62" >
+        <action
+            android:id="@+id/action_question62Fragment_to_question63Fragment"
+            app:destination="@id/question63Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question63Fragment"
+        android:name="com.example.quizquetion.Question63Fragment"
+        android:label="fragment_question63"
+        tools:layout="@layout/fragment_question63" >
+        <action
+            android:id="@+id/action_question63Fragment_to_question64Fragment"
+            app:destination="@id/question64Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question64Fragment"
+        android:name="com.example.quizquetion.Question64Fragment"
+        android:label="fragment_question64"
+        tools:layout="@layout/fragment_question64" >
+        <action
+            android:id="@+id/action_question64Fragment_to_question65Fragment"
+            app:destination="@id/question65Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question65Fragment"
+        android:name="com.example.quizquetion.Question65Fragment"
+        android:label="fragment_question65"
+        tools:layout="@layout/fragment_question65" >
+        <action
+            android:id="@+id/action_question65Fragment_to_question66Fragment"
+            app:destination="@id/question66Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question66Fragment"
+        android:name="com.example.quizquetion.Question66Fragment"
+        android:label="fragment_question66"
+        tools:layout="@layout/fragment_question66" >
+        <action
+            android:id="@+id/action_question66Fragment_to_question67Fragment"
+            app:destination="@id/question67Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question67Fragment"
+        android:name="com.example.quizquetion.Question67Fragment"
+        android:label="fragment_question67"
+        tools:layout="@layout/fragment_question67" >
+        <action
+            android:id="@+id/action_question67Fragment_to_question68Fragment"
+            app:destination="@id/question68Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question68Fragment"
+        android:name="com.example.quizquetion.Question68Fragment"
+        android:label="fragment_question68"
+        tools:layout="@layout/fragment_question68" >
+        <action
+            android:id="@+id/action_question68Fragment_to_question69Fragment"
+            app:destination="@id/question69Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question69Fragment"
+        android:name="com.example.quizquetion.Question69Fragment"
+        android:label="fragment_question69"
+        tools:layout="@layout/fragment_question69" >
+        <action
+            android:id="@+id/action_question69Fragment_to_question70Fragment"
+            app:destination="@id/question70Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question70Fragment"
+        android:name="com.example.quizquetion.Question70Fragment"
+        android:label="fragment_question70"
+        tools:layout="@layout/fragment_question70" >
+        <action
+            android:id="@+id/action_question70Fragment_to_question71Fragment"
+            app:destination="@id/question71Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question71Fragment"
+        android:name="com.example.quizquetion.Question71Fragment"
+        android:label="fragment_question71"
+        tools:layout="@layout/fragment_question71" >
+        <action
+            android:id="@+id/action_question71Fragment_to_question72Fragment"
+            app:destination="@id/question72Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question72Fragment"
+        android:name="com.example.quizquetion.Question72Fragment"
+        android:label="fragment_question72"
+        tools:layout="@layout/fragment_question72" >
+        <action
+            android:id="@+id/action_question72Fragment_to_question73Fragment"
+            app:destination="@id/question73Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question73Fragment"
+        android:name="com.example.quizquetion.Question73Fragment"
+        android:label="fragment_question73"
+        tools:layout="@layout/fragment_question73" >
+        <action
+            android:id="@+id/action_question73Fragment_to_question74Fragment"
+            app:destination="@id/question74Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question74Fragment"
+        android:name="com.example.quizquetion.Question74Fragment"
+        android:label="fragment_question74"
+        tools:layout="@layout/fragment_question74" >
+        <action
+            android:id="@+id/action_question74Fragment_to_question75Fragment"
+            app:destination="@id/question75Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question75Fragment"
+        android:name="com.example.quizquetion.Question75Fragment"
+        android:label="fragment_question75"
+        tools:layout="@layout/fragment_question75" >
+        <action
+            android:id="@+id/action_question75Fragment_to_question76Fragment"
+            app:destination="@id/question76Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question76Fragment"
+        android:name="com.example.quizquetion.Question76Fragment"
+        android:label="fragment_question76"
+        tools:layout="@layout/fragment_question76" >
+        <action
+            android:id="@+id/action_question76Fragment_to_question77Fragment"
+            app:destination="@id/question77Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question77Fragment"
+        android:name="com.example.quizquetion.Question77Fragment"
+        android:label="fragment_question77"
+        tools:layout="@layout/fragment_question77" >
+        <action
+            android:id="@+id/action_question77Fragment_to_question78Fragment"
+            app:destination="@id/question78Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question78Fragment"
+        android:name="com.example.quizquetion.Question78Fragment"
+        android:label="fragment_question78"
+        tools:layout="@layout/fragment_question78" >
+        <action
+            android:id="@+id/action_question78Fragment_to_question79Fragment"
+            app:destination="@id/question79Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question79Fragment"
+        android:name="com.example.quizquetion.Question79Fragment"
+        android:label="fragment_question79"
+        tools:layout="@layout/fragment_question79" >
+        <action
+            android:id="@+id/action_question79Fragment_to_question80Fragment"
+            app:destination="@id/question80Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question80Fragment"
+        android:name="com.example.quizquetion.Question80Fragment"
+        android:label="fragment_question80"
+        tools:layout="@layout/fragment_question80" >
+        <action
+            android:id="@+id/action_question80Fragment_to_question81Fragment"
+            app:destination="@id/question81Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question81Fragment"
+        android:name="com.example.quizquetion.Question81Fragment"
+        android:label="fragment_question81"
+        tools:layout="@layout/fragment_question81" >
+        <action
+            android:id="@+id/action_question81Fragment_to_question82Fragment"
+            app:destination="@id/question82Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question82Fragment"
+        android:name="com.example.quizquetion.Question82Fragment"
+        android:label="fragment_question82"
+        tools:layout="@layout/fragment_question82" >
+        <action
+            android:id="@+id/action_question82Fragment_to_question83Fragment"
+            app:destination="@id/question83Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question83Fragment"
+        android:name="com.example.quizquetion.Question83Fragment"
+        android:label="fragment_question83"
+        tools:layout="@layout/fragment_question83" >
+        <action
+            android:id="@+id/action_question83Fragment_to_question84Fragment"
+            app:destination="@id/question84Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question84Fragment"
+        android:name="com.example.quizquetion.Question84Fragment"
+        android:label="fragment_question84"
+        tools:layout="@layout/fragment_question84" >
+        <action
+            android:id="@+id/action_question84Fragment_to_question85Fragment"
+            app:destination="@id/question85Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question85Fragment"
+        android:name="com.example.quizquetion.Question85Fragment"
+        android:label="fragment_question85"
+        tools:layout="@layout/fragment_question85" >
+        <action
+            android:id="@+id/action_question85Fragment_to_question86Fragment"
+            app:destination="@id/question86Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question86Fragment"
+        android:name="com.example.quizquetion.Question86Fragment"
+        android:label="fragment_question86"
+        tools:layout="@layout/fragment_question86" >
+        <action
+            android:id="@+id/action_question86Fragment_to_question87Fragment"
+            app:destination="@id/question87Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question87Fragment"
+        android:name="com.example.quizquetion.Question87Fragment"
+        android:label="fragment_question87"
+        tools:layout="@layout/fragment_question87" >
+        <action
+            android:id="@+id/action_question87Fragment_to_question88Fragment"
+            app:destination="@id/question88Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question88Fragment"
+        android:name="com.example.quizquetion.Question88Fragment"
+        android:label="fragment_question88"
+        tools:layout="@layout/fragment_question88" >
+        <action
+            android:id="@+id/action_question88Fragment_to_question89Fragment"
+            app:destination="@id/question89Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question89Fragment"
+        android:name="com.example.quizquetion.Question89Fragment"
+        android:label="fragment_question89"
+        tools:layout="@layout/fragment_question89" >
+        <action
+            android:id="@+id/action_question89Fragment_to_question90Fragment"
+            app:destination="@id/question90Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question90Fragment"
+        android:name="com.example.quizquetion.Question90Fragment"
+        android:label="fragment_question90"
+        tools:layout="@layout/fragment_question90" >
+        <action
+            android:id="@+id/action_question90Fragment_to_question91Fragment"
+            app:destination="@id/question91Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question91Fragment"
+        android:name="com.example.quizquetion.Question91Fragment"
+        android:label="fragment_question91"
+        tools:layout="@layout/fragment_question91" >
+        <action
+            android:id="@+id/action_question91Fragment_to_question92Fragment"
+            app:destination="@id/question92Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question92Fragment"
+        android:name="com.example.quizquetion.Question92Fragment"
+        android:label="fragment_question92"
+        tools:layout="@layout/fragment_question92" >
+        <action
+            android:id="@+id/action_question92Fragment_to_question93Fragment"
+            app:destination="@id/question93Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question93Fragment"
+        android:name="com.example.quizquetion.Question93Fragment"
+        android:label="fragment_question93"
+        tools:layout="@layout/fragment_question93" >
+        <action
+            android:id="@+id/action_question93Fragment_to_question94Fragment"
+            app:destination="@id/question94Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question94Fragment"
+        android:name="com.example.quizquetion.Question94Fragment"
+        android:label="fragment_question94"
+        tools:layout="@layout/fragment_question94" >
+        <action
+            android:id="@+id/action_question94Fragment_to_question95Fragment"
+            app:destination="@id/question95Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question95Fragment"
+        android:name="com.example.quizquetion.Question95Fragment"
+        android:label="fragment_question95"
+        tools:layout="@layout/fragment_question95" >
+        <action
+            android:id="@+id/action_question95Fragment_to_question96Fragment"
+            app:destination="@id/question96Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question96Fragment"
+        android:name="com.example.quizquetion.Question96Fragment"
+        android:label="fragment_question96"
+        tools:layout="@layout/fragment_question96" >
+        <action
+            android:id="@+id/action_question96Fragment_to_question97Fragment"
+            app:destination="@id/question97Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question97Fragment"
+        android:name="com.example.quizquetion.Question97Fragment"
+        android:label="fragment_question97"
+        tools:layout="@layout/fragment_question97" >
+        <action
+            android:id="@+id/action_question97Fragment_to_question98Fragment"
+            app:destination="@id/question98Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question98Fragment"
+        android:name="com.example.quizquetion.Question98Fragment"
+        android:label="fragment_question98"
+        tools:layout="@layout/fragment_question98" >
+        <action
+            android:id="@+id/action_question98Fragment_to_question99Fragment"
+            app:destination="@id/question99Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question99Fragment"
+        android:name="com.example.quizquetion.Question99Fragment"
+        android:label="fragment_question99"
+        tools:layout="@layout/fragment_question99" >
+        <action
+            android:id="@+id/action_question99Fragment_to_question100Fragment"
+            app:destination="@id/question100Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question100Fragment"
+        android:name="com.example.quizquetion.Question100Fragment"
+        android:label="fragment_question100"
+        tools:layout="@layout/fragment_question100" >
+        <action
+            android:id="@+id/action_question100Fragment_to_question101Fragment"
+            app:destination="@id/question101Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question101Fragment"
+        android:name="com.example.quizquetion.Question101Fragment"
+        android:label="fragment_question101"
+        tools:layout="@layout/fragment_question101" >
+        <action
+            android:id="@+id/action_question101Fragment_to_question102Fragment"
+            app:destination="@id/question102Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question102Fragment"
+        android:name="com.example.quizquetion.Question102Fragment"
+        android:label="fragment_question102"
+        tools:layout="@layout/fragment_question102" >
+        <action
+            android:id="@+id/action_question102Fragment_to_question103Fragment"
+            app:destination="@id/question103Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question103Fragment"
+        android:name="com.example.quizquetion.Question103Fragment"
+        android:label="fragment_question103"
+        tools:layout="@layout/fragment_question103" >
+        <action
+            android:id="@+id/action_question103Fragment_to_question104Fragment"
+            app:destination="@id/question104Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question104Fragment"
+        android:name="com.example.quizquetion.Question104Fragment"
+        android:label="fragment_question104"
+        tools:layout="@layout/fragment_question104" >
+        <action
+            android:id="@+id/action_question104Fragment_to_question105Fragment"
+            app:destination="@id/question105Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question105Fragment"
+        android:name="com.example.quizquetion.Question105Fragment"
+        android:label="fragment_question105"
+        tools:layout="@layout/fragment_question105" >
+        <action
+            android:id="@+id/action_question105Fragment_to_question106Fragment"
+            app:destination="@id/question106Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question106Fragment"
+        android:name="com.example.quizquetion.Question106Fragment"
+        android:label="fragment_question106"
+        tools:layout="@layout/fragment_question106" >
+        <action
+            android:id="@+id/action_question106Fragment_to_question107Fragment"
+            app:destination="@id/question107Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question107Fragment"
+        android:name="com.example.quizquetion.Question107Fragment"
+        android:label="fragment_question107"
+        tools:layout="@layout/fragment_question107" >
+        <action
+            android:id="@+id/action_question107Fragment_to_question108Fragment"
+            app:destination="@id/question108Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question108Fragment"
+        android:name="com.example.quizquetion.Question108Fragment"
+        android:label="fragment_question108"
+        tools:layout="@layout/fragment_question108" >
+        <action
+            android:id="@+id/action_question108Fragment_to_question109Fragment"
+            app:destination="@id/question109Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question109Fragment"
+        android:name="com.example.quizquetion.Question109Fragment"
+        android:label="fragment_question109"
+        tools:layout="@layout/fragment_question109" >
+        <action
+            android:id="@+id/action_question109Fragment_to_question110Fragment"
+            app:destination="@id/question110Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question110Fragment"
+        android:name="com.example.quizquetion.Question110Fragment"
+        android:label="fragment_question110"
+        tools:layout="@layout/fragment_question110" >
+        <action
+            android:id="@+id/action_question110Fragment_to_question111Fragment"
+            app:destination="@id/question111Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question111Fragment"
+        android:name="com.example.quizquetion.Question111Fragment"
+        android:label="fragment_question111"
+        tools:layout="@layout/fragment_question111" >
+        <action
+            android:id="@+id/action_question111Fragment_to_question112Fragment"
+            app:destination="@id/question112Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question112Fragment"
+        android:name="com.example.quizquetion.Question112Fragment"
+        android:label="fragment_question112"
+        tools:layout="@layout/fragment_question112" >
+        <action
+            android:id="@+id/action_question112Fragment_to_question113Fragment"
+            app:destination="@id/question113Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question113Fragment"
+        android:name="com.example.quizquetion.Question113Fragment"
+        android:label="fragment_question113"
+        tools:layout="@layout/fragment_question113" >
+        <action
+            android:id="@+id/action_question113Fragment_to_question114Fragment"
+            app:destination="@id/question114Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question114Fragment"
+        android:name="com.example.quizquetion.Question114Fragment"
+        android:label="fragment_question114"
+        tools:layout="@layout/fragment_question114" >
+        <action
+            android:id="@+id/action_question114Fragment_to_question115Fragment"
+            app:destination="@id/question115Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question115Fragment"
+        android:name="com.example.quizquetion.Question115Fragment"
+        android:label="fragment_question115"
+        tools:layout="@layout/fragment_question115" >
+        <action
+            android:id="@+id/action_question115Fragment_to_question116Fragment"
+            app:destination="@id/question116Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question116Fragment"
+        android:name="com.example.quizquetion.Question116Fragment"
+        android:label="fragment_question116"
+        tools:layout="@layout/fragment_question116" >
+        <action
+            android:id="@+id/action_question116Fragment_to_question117Fragment"
+            app:destination="@id/question117Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question117Fragment"
+        android:name="com.example.quizquetion.Question117Fragment"
+        android:label="fragment_question117"
+        tools:layout="@layout/fragment_question117" >
+        <action
+            android:id="@+id/action_question117Fragment_to_question118Fragment"
+            app:destination="@id/question118Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question118Fragment"
+        android:name="com.example.quizquetion.Question118Fragment"
+        android:label="fragment_question118"
+        tools:layout="@layout/fragment_question118" >
+        <action
+            android:id="@+id/action_question118Fragment_to_question119Fragment"
+            app:destination="@id/question119Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question119Fragment"
+        android:name="com.example.quizquetion.Question119Fragment"
+        android:label="fragment_question119"
+        tools:layout="@layout/fragment_question119" >
+        <action
+            android:id="@+id/action_question119Fragment_to_question120Fragment"
+            app:destination="@id/question120Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question120Fragment"
+        android:name="com.example.quizquetion.Question120Fragment"
+        android:label="fragment_question120"
+        tools:layout="@layout/fragment_question120" >
+        <action
+            android:id="@+id/action_question120Fragment_to_question121Fragment"
+            app:destination="@id/question121Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question121Fragment"
+        android:name="com.example.quizquetion.Question121Fragment"
+        android:label="fragment_question121"
+        tools:layout="@layout/fragment_question121" >
+        <action
+            android:id="@+id/action_question121Fragment_to_question122Fragment"
+            app:destination="@id/question122Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question122Fragment"
+        android:name="com.example.quizquetion.Question122Fragment"
+        android:label="fragment_question122"
+        tools:layout="@layout/fragment_question122" >
+        <action
+            android:id="@+id/action_question122Fragment_to_question123Fragment"
+            app:destination="@id/question123Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question123Fragment"
+        android:name="com.example.quizquetion.Question123Fragment"
+        android:label="fragment_question123"
+        tools:layout="@layout/fragment_question123" >
+        <action
+            android:id="@+id/action_question123Fragment_to_question124Fragment"
+            app:destination="@id/question124Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question124Fragment"
+        android:name="com.example.quizquetion.Question124Fragment"
+        android:label="fragment_question124"
+        tools:layout="@layout/fragment_question124" >
+        <action
+            android:id="@+id/action_question124Fragment_to_question125Fragment"
+            app:destination="@id/question125Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question125Fragment"
+        android:name="com.example.quizquetion.Question125Fragment"
+        android:label="fragment_question125"
+        tools:layout="@layout/fragment_question125" >
+        <action
+            android:id="@+id/action_question125Fragment_to_question126Fragment"
+            app:destination="@id/question126Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question126Fragment"
+        android:name="com.example.quizquetion.Question126Fragment"
+        android:label="fragment_question126"
+        tools:layout="@layout/fragment_question126" >
+        <action
+            android:id="@+id/action_question126Fragment_to_question127Fragment"
+            app:destination="@id/question127Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question127Fragment"
+        android:name="com.example.quizquetion.Question127Fragment"
+        android:label="fragment_question127"
+        tools:layout="@layout/fragment_question127" >
+        <action
+            android:id="@+id/action_question127Fragment_to_question128Fragment"
+            app:destination="@id/question128Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question128Fragment"
+        android:name="com.example.quizquetion.Question128Fragment"
+        android:label="fragment_question128"
+        tools:layout="@layout/fragment_question128" >
+        <action
+            android:id="@+id/action_question128Fragment_to_question129Fragment"
+            app:destination="@id/question129Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question129Fragment"
+        android:name="com.example.quizquetion.Question129Fragment"
+        android:label="fragment_question129"
+        tools:layout="@layout/fragment_question129" >
+        <action
+            android:id="@+id/action_question129Fragment_to_question130Fragment"
+            app:destination="@id/question130Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question130Fragment"
+        android:name="com.example.quizquetion.Question130Fragment"
+        android:label="fragment_question130"
+        tools:layout="@layout/fragment_question130" >
+        <action
+            android:id="@+id/action_question130Fragment_to_question131Fragment"
+            app:destination="@id/question131Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question131Fragment"
+        android:name="com.example.quizquetion.Question131Fragment"
+        android:label="fragment_question131"
+        tools:layout="@layout/fragment_question131" >
+        <action
+            android:id="@+id/action_question131Fragment_to_question132Fragment"
+            app:destination="@id/question132Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question132Fragment"
+        android:name="com.example.quizquetion.Question132Fragment"
+        android:label="fragment_question132"
+        tools:layout="@layout/fragment_question132" >
+        <action
+            android:id="@+id/action_question132Fragment_to_question133Fragment"
+            app:destination="@id/question133Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question133Fragment"
+        android:name="com.example.quizquetion.Question133Fragment"
+        android:label="fragment_question133"
+        tools:layout="@layout/fragment_question133" >
+        <action
+            android:id="@+id/action_question133Fragment_to_question134Fragment"
+            app:destination="@id/question134Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question134Fragment"
+        android:name="com.example.quizquetion.Question134Fragment"
+        android:label="fragment_question134"
+        tools:layout="@layout/fragment_question134" >
+        <action
+            android:id="@+id/action_question134Fragment_to_question135Fragment"
+            app:destination="@id/question135Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question135Fragment"
+        android:name="com.example.quizquetion.Question135Fragment"
+        android:label="fragment_question135"
+        tools:layout="@layout/fragment_question135" >
+        <action
+            android:id="@+id/action_question135Fragment_to_question136Fragment"
+            app:destination="@id/question136Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question136Fragment"
+        android:name="com.example.quizquetion.Question136Fragment"
+        android:label="fragment_question136"
+        tools:layout="@layout/fragment_question136" >
+        <action
+            android:id="@+id/action_question136Fragment_to_question137Fragment"
+            app:destination="@id/question137Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question137Fragment"
+        android:name="com.example.quizquetion.Question137Fragment"
+        android:label="fragment_question137"
+        tools:layout="@layout/fragment_question137" >
+        <action
+            android:id="@+id/action_question137Fragment_to_question138Fragment"
+            app:destination="@id/question138Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question138Fragment"
+        android:name="com.example.quizquetion.Question138Fragment"
+        android:label="fragment_question138"
+        tools:layout="@layout/fragment_question138" >
+        <action
+            android:id="@+id/action_question138Fragment_to_question139Fragment"
+            app:destination="@id/question139Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question139Fragment"
+        android:name="com.example.quizquetion.Question139Fragment"
+        android:label="fragment_question139"
+        tools:layout="@layout/fragment_question139" >
+        <action
+            android:id="@+id/action_question139Fragment_to_question140Fragment"
+            app:destination="@id/question140Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question140Fragment"
+        android:name="com.example.quizquetion.Question140Fragment"
+        android:label="fragment_question140"
+        tools:layout="@layout/fragment_question140" >
+        <action
+            android:id="@+id/action_question140Fragment_to_question141Fragment"
+            app:destination="@id/question141Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question141Fragment"
+        android:name="com.example.quizquetion.Question141Fragment"
+        android:label="fragment_question141"
+        tools:layout="@layout/fragment_question141" >
+        <action
+            android:id="@+id/action_question141Fragment_to_question142Fragment"
+            app:destination="@id/question142Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question142Fragment"
+        android:name="com.example.quizquetion.Question142Fragment"
+        android:label="fragment_question142"
+        tools:layout="@layout/fragment_question142" >
+        <action
+            android:id="@+id/action_question142Fragment_to_question143Fragment"
+            app:destination="@id/question143Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question143Fragment"
+        android:name="com.example.quizquetion.Question143Fragment"
+        android:label="fragment_question143"
+        tools:layout="@layout/fragment_question143" >
+        <action
+            android:id="@+id/action_question143Fragment_to_question144Fragment"
+            app:destination="@id/question144Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question144Fragment"
+        android:name="com.example.quizquetion.Question144Fragment"
+        android:label="fragment_question144"
+        tools:layout="@layout/fragment_question144" >
+        <action
+            android:id="@+id/action_question144Fragment_to_question145Fragment"
+            app:destination="@id/question145Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question145Fragment"
+        android:name="com.example.quizquetion.Question145Fragment"
+        android:label="fragment_question145"
+        tools:layout="@layout/fragment_question145" >
+        <action
+            android:id="@+id/action_question145Fragment_to_question146Fragment"
+            app:destination="@id/question146Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/question146Fragment"
+        android:name="com.example.quizquetion.Question146Fragment"
+        android:label="fragment_question146"
+        tools:layout="@layout/fragment_question146" >
+        <action
+            android:id="@+id/action_question146Fragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.quizquetion.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>
